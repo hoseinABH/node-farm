@@ -4,7 +4,7 @@
   "description": "learning node js from scrach.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/hoseinABH98/node-farm/issues"
   },
-  "homepage": "https://github.com/hoseinABH98/node-farm#readme"
+  "homepage": "https://github.com/hoseinABH98/node-farm#readme",
+  "dependencies": {
+    "slugify": "^1.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
